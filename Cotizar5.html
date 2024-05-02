@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Benny's Original Motor Works</title>
+    <link rel="stylesheet" href="/CSS/Cotizar5.css">
+</head>
+<body>
+
+    <section class="header">
+        <div class="container">
+            <nav>
+                <img src="/Imagenes/BennysLogo.png" alt="Benny" width="95" height="95"pt-5>
+                <ul>
+                    <li><a href="Index.html" class="active">Inicio</a></li>
+                    <li><a href="Servicios.html">Servicios</a></li>
+                    <li><a href="Catalogo.html">Catálogo</a></li>
+                    <li><a href="Ubicacion.html">Ubicación</a></li>
+                    <li><a href="Contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </section>
+    <h1>Contáctanos</h1> 
+    <div class="card-container">
+        <div class="card">
+            <div class="card-content">
+                <form action="https://api.web3forms.com/submit" method="POST">
+                <input type="hidden" name="access_key" value="3f3f6f74-0211-4c2f-b15c-74d96cb44b24">                 
+                <label for="nombre">Escribe tu nombre:</label>
+                <br><input type="text" id="nombre" name="nombre" class="box" required><br>
+                <label for="correo">Escribe tu correo:</label><br>
+                <input type="email" id="email" name="email" class="box" required>
+                <label for="servicio">Diseño a cotizar:</label>
+                <select id="Servicio" name="Servicio">
+                <option value="Diseño Ford Shelby GT350R 2016">Ford Shelby GT350R 2016</option></select><br>
+                <br><label for="Mensajes">Escribe tu mensaje:</label>
+                <textarea type="mensaje" id="Mensajes" name="Mensajes" class="box" cols="20" rows="5" required></textarea>         
+                <input type="submit" value="enviar" class="btn">
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>
