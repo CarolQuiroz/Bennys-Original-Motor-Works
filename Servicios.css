@@ -1,0 +1,92 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.418),
+        rgba(0, 0, 0, 0.418)),
+        url(/Imagenes/fondotaller.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    position: relative;
+}
+.card-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap:25px;
+    margin-top: 100px;
+}
+.card{
+    width:325px;
+    background-color: darkgray;
+    border-radius: 10px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+    transition: transform 0.6s ease;
+}
+.card:hover{
+    transform: translateY(-20px);
+}
+.card img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+.card-content{
+    padding: 20px;
+}
+.card-content h1{
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.card-content p{
+    font-size: 15px;
+    color: #3e3d3d;
+    margin-bottom: 20px;
+}
+.card-button{
+    display: inline-block;
+    background-color: #092b42;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 8px 16px;
+}
+.container{
+    width: 85%;
+    margin: auto;
+}
+nav{
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul{
+    float: right;
+    line-height: 70px;  
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    padding: 10px 10px;
+}
+nav ul li a{
+    color: rgb(255, 255, 255);
+    text-decoration:none;
+    border-radius: 5px;
+}
+nav ul li a:hover{
+    background-color: #54d1daa9;
+    transition: 0.5s ease;
+}
+.h1a{
+    color: rgba(255, 255, 255, 255);
+    text-align: center;
+}

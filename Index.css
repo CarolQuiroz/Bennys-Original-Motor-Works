@@ -1,0 +1,86 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box; 
+}
+section{
+    background-image: linear-gradient(
+    rgba(0, 0, 0, 0.534),
+    rgba(0, 0, 0, 0.534)),
+    url(/Imagenes/rosa.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    position: relative;
+}
+.container{
+    width: 85%;
+    margin: auto;
+}
+nav{
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+    
+nav ul{
+    float: right;
+    line-height: 70px;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    padding: 10px 10px;
+}
+nav ul li a{
+    color: rgb(255, 255, 255);
+    text-decoration:none;
+    border-radius: 5px;
+}
+nav ul li a:hover{
+    background-color: #54d1daa9;
+    transition: 0.5s ease;
+}
+.article{
+    width: 50%;
+    text-align: left;
+
+}
+.article h1{
+    font-size: 60px;
+    color: #ff06a8;
+    letter-spacing: 1.5px;
+    font-weight: 600;
+    margin-bottom: 100px;
+}
+.article p{
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    line-height: 1.5;
+    justify-content: left;
+}
+.article .btn{
+    color: rgb(255, 255, 255);
+    padding: 12px 25px;
+    letter-spacing: 1.5px;
+    text-decoration: none;
+    background-color: rgba(212, 29, 114, 0.773);
+    border-radius: 25px;
+    font-family:'Roboto Condensed', sans-serif;
+    text-transform: uppercase;
+}
+.article .btn:hover{
+    background-color: #b2197c;
+    transition: 0.5s ease;
+}
+.header{
+    align-items: start;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.h1t{
+    transform: translateY(50%);
+}

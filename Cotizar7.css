@@ -1,0 +1,103 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.418),
+        rgba(0, 0, 0, 0.418)),
+        url(/Imagenes/fondo2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    position: relative;
+}
+.card-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap:25px;
+    margin-top: 100px;
+}
+.card{
+    width: 600px;
+    height: 480px;
+    background-color: rgba(197, 188, 190, 0.726);
+    border-radius: 10px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+    transform: translateY(-15%);
+}
+.card-content{
+    padding: 20px;
+}
+.container{
+    width: 85%;
+    margin: auto;
+}
+nav{
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav ul{
+    float: right;
+    line-height: 70px;  
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    padding: 10px 10px;
+}
+nav ul li a{
+    color: rgb(255, 255, 255);
+    text-decoration:none;
+    border-radius: 5px;
+}
+nav ul li a:hover{
+    background-color: #54d1daa9;
+    transition: 0.5s ease;
+}
+h1{
+    text-align: center;
+    color: #ffffff;
+}
+label{
+    font-size: 15px;
+    color:  #000000;
+    margin-bottom: 15px;
+    margin-left: 10px;
+}
+.box{
+    border: 0;
+    background-color: #ffffff;
+    padding: 15px;
+    width: 550px;
+    border-radius: 25px;
+    margin-bottom: 25px;
+    outline: none;
+}
+.btn {
+    background-color: #e41c8ad8;
+    padding: 15px;
+    color: #ffffff;
+    font-size: 16px;
+    border-radius: 25px;
+    width: 150px;
+    margin-bottom: 100px;
+    margin-left: 200px;
+    transform: translateX(-20px);
+    transform: translateY(-20px);
+}
+select {
+    width: 550px;
+    padding: 15px 18px;
+    border: none;
+    border-radius: 25px;
+    background-color: #ffffffd5;
+    outline: none;
+  }
+
